@@ -17,7 +17,8 @@
             <!--Logo-->
             <div class="col-sm-3 pl-0 text-center header-logo">
                 <div class="bg-theme mr-3 pt-3 pb-2 mb-0">
-                    <h3 class="logo"><a href="#" class="text-secondary logo"><i class="fa fa-rocket"></i> Sistem Informasi</a></h3>
+                    <h3 class="logo"><a href="#" class="text-secondary logo"><i class="fa fa-rocket"></i> Sistem
+                            Informasi</a></h3>
                 </div>
             </div>
             <!--Logo-->
@@ -69,16 +70,25 @@
                     <div class="col-sm-8 col-4 text-right flex-header-menu justify-content-end">
 
                         <div class="mr-4">
-                            <a class="" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $user['name']; ?></span>
 
-                                <img src="<?php echo base_url() . '/gambar/pegawai/' . $user['image']; ?>" class="rounded-circle" width="40px" height="40px">
+                                <img src="<?php echo base_url() . '/gambar/pegawai/' . $user['image']; ?>"
+                                    class="rounded-circle" width="40px" height="40px">
                             </a>
                             <div class="dropdown-menu dropdown-menu-right mt-13" aria-labelledby="dropdownMenuLink">
-                                <!-- <a class="dropdown-item" href="#"><i class="fa fa-user pr-2"></i> Profile</a> -->
+                                <!-- Uncommented profile link -->
+                                <a class="dropdown-item" href="#"><i class="fa fa-user pr-2"></i> Profile</a>
+
+                                <!-- Divider for visual separation -->
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="<?= base_url('auth/logout') ?>"><i class="fa fa-power-off pr-2"></i> Logout</a>
+
+                                <!-- Logout link -->
+                                <a class="dropdown-item" href="<?= base_url('auth/logout') ?>"><i
+                                        class="fa fa-power-off pr-2"></i> Logout</a>
                             </div>
+
                         </div>
                     </div>
                     <!--Search box and avatar-->
