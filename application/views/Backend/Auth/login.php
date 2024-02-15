@@ -8,7 +8,7 @@
       <div class="row">
         <div class="col-md-6 col-sm-6 col-12 login-box-info">
           <p class="mb-4">
-            <img src="./gambar/logo.png" style="max-width: 100%;" alt="Management Karyawan">
+            <img src="./gambar/logo.png" style="max-width: 90%; height: auto;" alt="Management Karyawan">
           </p>
           <h3 class="mb-4">Management Karyawan</h3>
 
