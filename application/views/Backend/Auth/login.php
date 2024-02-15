@@ -4,18 +4,17 @@
 
   <div class="container-fluid login-wrapper">
     <div class="login-box">
-      <h1 class="text-center mb-5"><i class="fa fa-rocket text-primary"></i> Management Karyawan</h1>
+      <h1 class="text-center mb-5"><i class="fa fa-users"></i> Selamat Datang</h1>
       <div class="row">
         <div class="col-md-6 col-sm-6 col-12 login-box-info">
           <p class="mb-4">
-            <img src="./gambar/logo.png" style="max-width: 90%;" alt="Management Karyawan">
+            <img src="./gambar/logo.png" style="max-width: 90%; height: auto;" alt="Management Karyawan">
           </p>
-          <h3 class="mb-4">Management Karyawan</h3>
+          <h3 class="mb-4">Sistem Manajemen Pengajian Terpadu</h3>
 
         </div>
         <div class="col-md-6 col-sm-6 col-12 login-box-form p-4">
-          <h3 class="text-center mb-4">Login</h3>
-
+          <h3 class="mb-4 text-center">Login</h3>
           <!-- // -->
 
           <?php if ($this->session->flashdata('message')) : ?>
