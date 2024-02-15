@@ -3,7 +3,7 @@
      <h5 class="mb-3"><strong>Dashboard</strong></h5>
 
      <div class="mt-4 mb-4 p-3 bg-white border shadow-sm lh-sm">
-         <h1>Selamat Datang Di Sistem Informasi Pengaduan Online TEHE</h1>
+         <h1>Selamat Datang Di Sistem Manajemen Penggajian Terpadu</h1>
          <!-- //body -->
 
      </div>

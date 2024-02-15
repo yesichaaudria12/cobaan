@@ -78,7 +78,6 @@
                                     class="rounded-circle" width="40px" height="40px">
                             </a>
                             <div class="dropdown-menu dropdown-menu-right mt-13" aria-labelledby="dropdownMenuLink">
-                                <!-- Uncommented profile link -->
                                 <a class="dropdown-item" href="#"><i class="fa fa-user pr-2"></i> Profile</a>
 
                                 <!-- Divider for visual separation -->

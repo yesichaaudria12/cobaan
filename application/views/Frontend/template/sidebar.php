@@ -8,7 +8,7 @@
              <div class="avatar text-center">
 
 
-                 <p><strong><a class="mt-2"><br><br><br><br><br>Sistem Informasi Reservasi Tiket ALS</strong></p>
+                 <p><strong><a class="mt-2"><br><br><br><br><br>Sistem Manajemen Penggajian Terpadu</strong></p>
                  <span class="text-primary small"><strong>Selamat Datang</strong></span>
              </div>
              <!--Image Avatar-->
@@ -20,17 +20,20 @@
              <div class="sidebar-menu-container">
                  <ul class="sidebar-menu mt-3 mb-5">
                      <li class="parent">
-                         <a href="<?= base_url() ?>Pengaduan/halaman-dashboard" class=""><i class="fa fa-dashboard mr-3"> </i>
+                         <a href="<?= base_url() ?>Pengaduan/halaman-dashboard" class=""><i
+                                 class="fa fa-dashboard mr-3"> </i>
                              <span class="none">Home </span>
                          </a>
                      </li>
                      <li class="parent">
-                         <a href="<?= base_url() ?>Pengaduan/halaman-pengaduan" class=""><i class="fa fa-dashboard mr-3"> </i>
+                         <a href="<?= base_url() ?>Pengaduan/halaman-pengaduan" class=""><i
+                                 class="fa fa-dashboard mr-3"> </i>
                              <span class="none">Konfirmasi Pembyaran </span>
                          </a>
                      </li>
                      <li class="parent">
-                         <a href="<?= base_url() ?>Pengaduan/halaman-cekpengaduan" class=""><i class="fa fa-dashboard mr-3"> </i>
+                         <a href="<?= base_url() ?>Pengaduan/halaman-cekpengaduan" class=""><i
+                                 class="fa fa-dashboard mr-3"> </i>
                              <span class="none">Cek Pengaduan </span>
                          </a>
                      </li>
