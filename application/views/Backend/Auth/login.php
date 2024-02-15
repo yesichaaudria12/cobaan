@@ -4,11 +4,13 @@
 
   <div class="container-fluid login-wrapper">
     <div class="login-box">
-      <h1 class="text-center mb-5"><i class="fa fa-rocket text-primary"></i> Management Karyawan</h1>
+      <h1 class="text-center mb-5"><i class="fa fa-rocket text-primary"></i> Management Karyawan</h1>
       <div class="row">
         <div class="col-md-6 col-sm-6 col-12 login-box-info">
-          <h3 class="mb-4">Management Karyawan</h3>
-          <p class="mb-4">Administrator Sistem</p>
+          <p class="mb-4">
+            <img src="./gambar/logo.png" style="max-width: 100%;" alt="Management Karyawan">
+          </p>
+          <h3 class="mb-4">Management Karyawan</h3>
 
         </div>
         <div class="col-md-6 col-sm-6 col-12 login-box-form p-4">
