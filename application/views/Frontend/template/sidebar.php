@@ -9,7 +9,7 @@
 
 
                  <p><strong><a class="mt-2"><br><br><br><br><br>Sistem Informasi Reservasi Tiket ALS</strong></p>
-                 <span class="text-primary small"><strong>Selamat Datang</strong></span>
+                 <span class="text-primary small"><strong>WELCOME</strong></span>
              </div>
              <!--Image Avatar-->
 

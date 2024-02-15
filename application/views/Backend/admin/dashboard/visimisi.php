@@ -5,7 +5,7 @@
    <!--Dashboard widget-->
    <div class="mt-1 mb-3 button-container">
      <div class="alert alert-primary" role="alert">
-       <p>Selamat Datang, <b>Admin Kepegawaian</b></p>
+       <p>Welcome, <b>Admin Kepegawaian</b></p>
      </div>
      <div class="mt-1 mb-3 button-container">
        <div class="row pl-0">
@@ -69,7 +69,7 @@
    <div class="mt-1 mb-5 button-container">
      <div class="card shadow-sm">
        <div class="card-header  bg-primary">
-         <h6 class="text-white">VISI DAN MISI PT. SURYABUMI AGROLANGGENG</h6>
+         <h6 class="text-white">VISI DAN MISI PT. Global Printpack Indonesia</h6>
        </div>
        <div class="card-body">
          <p class="card-text p-typo">

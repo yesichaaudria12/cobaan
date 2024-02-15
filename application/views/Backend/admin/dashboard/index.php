@@ -5,7 +5,7 @@
    <!--Dashboard widget-->
    <div class="mt-1 mb-3 button-container">
      <div class="alert alert-primary" role="alert">
-       <p>Selamat Datang, <b>Admin Kepegawaian</b></p>
+       <p>Welcome, <b>Admin Kepegawaian</b></p>
      </div>
      <div class="mt-1 mb-3 button-container">
        <div class="row pl-0">

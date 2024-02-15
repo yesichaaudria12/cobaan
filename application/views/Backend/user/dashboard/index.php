@@ -16,7 +16,7 @@
      <div class="alert alert-primary" role="alert">
        <div class="row align-items-center">
          <div class="col-lg-8">
-           <p>Selamat Datang, <b><?= $user['name'] ?></b></p>
+           <p>Welcome, <b><?= $user['name'] ?></b></p>
          </div>
          <div class="col-lg-1" style="left: 45px;">
            <button class="btn" style="background: #B0C4DE   ;" data-toggle="modal" data-target=".myModal"> Ubah Profil</button>

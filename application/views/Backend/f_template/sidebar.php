@@ -9,7 +9,7 @@
          <img src="<?php echo base_url() . '/gambar/pegawai/' . $user['image']; ?>" alt="" class="rounded-circle" />
          <!-- <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $user['name']; ?></span> -->
          <p><strong><?= $user['name']; ?></strong></p>
-         <span class="text-primary small"><strong>Selamat Datang</strong></span>
+         <span class="text-primary small"><strong>Welcome</strong></span>
        </div>
 
        <!--Sidebar Navigation Menu-->
