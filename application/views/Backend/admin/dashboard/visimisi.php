@@ -74,16 +74,19 @@
        <div class="card-body">
          <p class="card-text p-typo">
            <center><b>• VISI</b></br>
-             Menjadi produsen produk kelapa sawit yang bermutu,efisien dan produktif yang berkembang dan berlanjutan dengan melakukan.investasi terbaik pada Industrinya dan di komunitaskan nya untuk meningkatkan nilai.
+            To be a leading rotogravure packaging manufacturer
+            
            </center></br>
-           <center><b>• MISI</b></center></br>
-           • Mengembangkan perusahaan perkebunan kelapa sawit secara mantap melalui :
-           Kapital yang mantap atas tim manajemen kebun yang professional dan Berdedikasi </br>
-           • Memperluas area perkebunan pada lahan yang sangat cocok untuk mengembangkan usaha kelapa sawit.
-           dan letaknya strategis dan letaknya secara bertahap membangun kapasitas pengelolahan dan infrastuktur pendukung untuk menempatkan produk secara efisien ke dalam pasar</br>
-           • Memelihara hubungan kuat yang sudah ada dengan masyarakat sekitar dengan cara pengembangan program petani kecil kelapa sawit dan pengembangan komunitas yang berlanjutan
-
-           </br>
+            <div class="card-body">
+         <p class="card-text p-typo text-justify">
+           <center><b>• MISI</b></br>
+             • To continuously improve productivity and efficiency<br>
+             • Provide excellent customer service, Applying the ‘Value Innovation Concept’ <br>
+             • which means our team will eliminate and reduce elements that are not essential for the customer and at the same time<br>
+             • we create and raise elements that are needed by the customer And applying Management Quality System to fulfill Industrial International standards.<br>
+           </center></br>
+        </div>
+        </br>
 
          </p>
        </div>
