@@ -31,4 +31,11 @@ class User_model extends CI_model
     $result = $this->db->query($sql);
     return $result->row_array();
   }
+
+	public function UserById($id)
+  {
+    $sql = "SELECT tb_user.*, jabatan.jabatan as namjab from tb_pegawai,jabatan  where tb_pegawai.jabatan=jabatan.id_jabatan and tb_pegawai.id_user='$id'";
+    $result = $this->db->query($sql);
+    return $result->row_array();
+  }
 }
