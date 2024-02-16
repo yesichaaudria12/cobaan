@@ -58,94 +58,94 @@ class pegawai extends CI_Controller
     $this->load->view('backend/user/dashboard/sejarah', $data);
     $this->load->view('backend/f_template/footer');
   }
-  public function edit_profil($id)
-  {
-    $data['title'] = 'Edit Profil';
-    // mengambil data user berdasarkan email yang ada di session
-    $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
-    $nama = $this->input->post('nama', true);
+  // public function edit_profil($id)
+  // {
+  //   $data['title'] = 'Edit Profil';
+  //   // mengambil data user berdasarkan email yang ada di session
+  //   $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+  //   $nama = $this->input->post('nama', true);
 
 
-    //foto dan ktp 
-    $upload_image = $_FILES['userfilefoto']['name'];
-    if ($upload_image) {
-      $config['upload_path']          = './gambar/pegawai/';
-      $config['allowed_types']        = 'gif|jpg|png|PNG';
-      $config['max_size']             = 10000;
-      $config['max_width']            = 10000;
-      $config['max_height']           = 10000;
-      $this->load->library('upload', $config);
+  //   //foto dan ktp 
+  //   $upload_image = $_FILES['userfilefoto']['name'];
+  //   if ($upload_image) {
+  //     $config['upload_path']          = './gambar/pegawai/';
+  //     $config['allowed_types']        = 'gif|jpg|png|PNG';
+  //     $config['max_size']             = 10000;
+  //     $config['max_width']            = 10000;
+  //     $config['max_height']           = 10000;
+  //     $this->load->library('upload', $config);
 
-      if ($this->upload->do_upload('userfilefoto')) {
-        $new_image = $this->upload->data('file_name');
-        $new_image1 = $this->upload->data('file_name');
-        $data = $this->db->set('foto', $new_image);
-      } else {
-        echo $this->upload->display_errors();
-      }
-      $data = [
-        "nama_pegawai" => $nama,
+  //     if ($this->upload->do_upload('userfilefoto')) {
+  //       $new_image = $this->upload->data('file_name');
+  //       $new_image1 = $this->upload->data('file_name');
+  //       $data = $this->db->set('foto', $new_image);
+  //     } else {
+  //       echo $this->upload->display_errors();
+  //     }
+  //     $data = [
+  //       "nama_pegawai" => $nama,
 
-      ];
-      $this->db->where('id_user', $id);
-      $this->db->update('tb_pegawai', $data);
+  //     ];
+  //     $this->db->where('id_user', $id);
+  //     $this->db->update('tb_pegawai', $data);
 
-      $data1 = $this->db->set('image', $new_image1);
+  //     $data1 = $this->db->set('image', $new_image1);
 
-      $data1 = [
-        "name" => $nama,
+  //     $data1 = [
+  //       "name" => $nama,
 
-      ];
-      $this->db->where('id', $id);
-      $this->db->update('user', $data1);
+  //     ];
+  //     $this->db->where('id', $id);
+  //     $this->db->update('user', $data1);
 
 
-      $this->session->set_flashdata('flash', 'Berhasil diperbarui');
-      redirect('pegawai');
-    } else {
-      $data = [
-        "nama_pegawai" => $nama,
+  //     $this->session->set_flashdata('flash', 'Berhasil diperbarui');
+  //     redirect('pegawai');
+  //   } else {
+  //     $data = [
+  //       "nama_pegawai" => $nama,
 
-      ];
-      $this->db->where('id_user', $id);
-      $this->db->update('tb_pegawai', $data);
-      $data1 = [
-        "name" => $nama,
+  //     ];
+  //     $this->db->where('id_user', $id);
+  //     $this->db->update('tb_pegawai', $data);
+  //     $data1 = [
+  //       "name" => $nama,
 
-      ];
-      $this->db->where('id', $id);
-      $this->db->update('user', $data1);
-      $this->session->set_flashdata('flash', 'Berhasil diperbarui');
-      redirect('pegawai');
-    }
-    // 
-  }
-  public function edit_password($id)
-  {
-    $data['title'] = 'Edit Password';
-    // mengambil data user berdasarkan email yang ada di session
-    $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
-    $password_lama = $this->input->post('password_lama', true);
-    $password_baru = $this->input->post('password_baru', true);
-    $password_baru1 = $this->input->post('password_baru1', true);
-    if (password_verify($password_lama, $data['user']['password'])) {
-      if ($password_baru == $password_baru1) {
-        $data = [
-          "password" => password_hash($password_baru, PASSWORD_DEFAULT),
-        ];
-        $this->db->where('id', $id);
-        $this->db->update('user', $data);
-        $this->session->set_flashdata('flash', 'Password Berhasil Diubah!');
-        redirect('pegawai');
-      } else {
-        $this->session->set_flashdata('flash', 'Konfirmasi Password Berbeda!');
-        redirect('pegawai');
-      }
-    } else {
-      $this->session->set_flashdata('flash', 'Password Lama Salah!');
-      redirect('pegawai');
-    }
-  }
+  //     ];
+  //     $this->db->where('id', $id);
+  //     $this->db->update('user', $data1);
+  //     $this->session->set_flashdata('flash', 'Berhasil diperbarui');
+  //     redirect('pegawai');
+  //   }
+  //   // 
+  // }
+  // public function edit_password($id)
+  // {
+  //   $data['title'] = 'Edit Password';
+  //   // mengambil data user berdasarkan email yang ada di session
+  //   $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+  //   $password_lama = $this->input->post('password_lama', true);
+  //   $password_baru = $this->input->post('password_baru', true);
+  //   $password_baru1 = $this->input->post('password_baru1', true);
+  //   if (password_verify($password_lama, $data['user']['password'])) {
+  //     if ($password_baru == $password_baru1) {
+  //       $data = [
+  //         "password" => password_hash($password_baru, PASSWORD_DEFAULT),
+  //       ];
+  //       $this->db->where('id', $id);
+  //       $this->db->update('user', $data);
+  //       $this->session->set_flashdata('flash', 'Password Berhasil Diubah!');
+  //       redirect('pegawai');
+  //     } else {
+  //       $this->session->set_flashdata('flash', 'Konfirmasi Password Berbeda!');
+  //       redirect('pegawai');
+  //     }
+  //   } else {
+  //     $this->session->set_flashdata('flash', 'Password Lama Salah!');
+  //     redirect('pegawai');
+  //   }
+  // }
 
   public function absen_harian()
   {
@@ -324,7 +324,7 @@ class pegawai extends CI_Controller
       $upload_image = $_FILES['userfotoselfie']['name'];
       if ($upload_image) {
         $config['upload_path']          = './gambar/Absensi/';
-        $config['allowed_types']        = 'gif|jpg|png|PNG|jpeg';
+        $config['allowed_types']        = 'jpeg|jpg|png|PNG|jpeg';
         $config['max_size']             = 10000;
         $config['max_width']            = 10000;
         $config['max_height']           = 10000;

@@ -117,8 +117,10 @@
 
 
     // Pegwai
-    $route['pegawai/edit-profil/(:any)'] = 'pegawai/edit_profil/$1';
-    $route['pegawai/edit-password/(:any)'] = 'pegawai/edit_password/$1';
+	$route['MyProfile'] = 'myprofile/index';
+	$route['MyProfile/edit_profil/(:any)'] = 'myprofile/edit_profil/$1';
+	$route['MyProfile/edit_password/(:any)'] = 'myprofile/edit_password/$1';    
+	$route['pegawai/edit-password/(:any)'] = 'pegawai/edit_password/$1';
     $route['pegawai/absen-harian'] = 'pegawai/absen_harian';
     $route['pegawai/ambilabsen'] = 'pegawai/ambil_absen';
     $route['pegawai/ambilabsen-pulang'] = 'pegawai/ambil_absen_pulang';
