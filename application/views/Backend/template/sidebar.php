@@ -9,9 +9,9 @@
          <img src="<?php echo base_url() . '/gambar/' . $user['image']; ?>" alt="" class="rounded-circle" />
          <!-- <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $user['name']; ?></span> -->
          <p><strong><?= $user['name']; ?></strong></p>
-         <span class="text-primary small"><strong>WELCOME</strong></span>
-       </div>
-
+         <span class="text-primary small"><strong>Selamat Datang</strong></span>
+         <h6 class="text-primary small"><?= $user['role']; ?></h6>
+        </div>
        <!--Sidebar Navigation Menu-->
        <div class="sidebar-menu-container">
          <ul class="sidebar-menu mt-4 mb-4">
