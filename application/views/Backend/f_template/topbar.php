@@ -78,9 +78,13 @@
                                     class="rounded-circle" width="40px" height="40px">
                             </a>
                             <div class="dropdown-menu dropdown-menu-right mt-13" aria-labelledby="dropdownMenuLink">
+<<<<<<< HEAD
                                 <a class="dropdown-item" href="#"><i class="fa fa-user pr-2"></i> Profile</a>
 
                                 <!-- Divider for visual separation -->
+=======
+                                <a class="dropdown-item" href=""><i class="fa fa-user pr-2"></i>My Profile</a>
+>>>>>>> f022f061c7a1c29a27ecb8ff903505e40765a8e3
                                 <div class="dropdown-divider"></div>
 
                                 <!-- Logout link -->
