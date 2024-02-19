@@ -5,41 +5,18 @@
      <!--Dashboard widget-->
      <?php if ($this->session->flashdata('flash')) : ?>
      <div class="alert alert-info alert-dismissible fade show" role="alert">
-<<<<<<< HEAD
          <p><strong><i class="fa fa-info"></i> <?= $this->session->flashdata('flash'); ?></strong></p>
          <?= $this->session->unset_userdata('flash'); ?>
          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
              <span aria-hidden="true">&times;</span>
          </button>
-=======
-       <p><strong><i class="fa fa-info"></i> <?= $this->session->flashdata('flash'); ?></strong></p>
-       <?= $this->session->unset_userdata('flash'); ?>
-       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-         <span aria-hidden="true">&times;</span>
-       </button>
-     </div>
-   <?php endif ?>
-   <div class="mt-1 mb-3 button-container">
-     <div class="alert alert-primary" role="alert">
-       <div class="row align-items-center">
-         <div class="col-lg-8">
-           <p>Welcome, <b><?= $user['name'] ?></b></p>
-         </div>
-         <div class="col-lg-1" style="left: 45px;">
-           <button class="btn" style="background: #B0C4DE   ;" data-toggle="modal" data-target=".myModal"> Ubah Profil</button>
-         </div>
-         <div class="col-lg-1" style="left: 80px;">
-           <button class="btn" style="background: #B0C4DE   ;" data-toggle="modal" data-target=".myModalpassword"> Ubah Password</button>
-         </div>
-       </div>
->>>>>>> f8f323ded1822796291542a2a7f49639ef01f129
      </div>
      <?php endif ?>
      <div class="mt-1 mb-3 button-container">
          <div class="alert alert-primary" role="alert">
              <div class="row align-items-center">
                  <div class="col-lg-8">
-                     <p>Selamat Datang, <b><?= $user['name'] ?></b></p>
+                     <p>Welcome, <b><?= $user['name'] ?></b></p>
                  </div>
                  <div class="col-lg-1" style="left: 45px;">
                      <button class="btn" style="background: #B0C4DE   ;" data-toggle="modal" data-target=".myModal">

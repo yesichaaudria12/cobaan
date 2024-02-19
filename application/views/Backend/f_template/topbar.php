@@ -17,7 +17,8 @@
             <!--Logo-->
             <div class="col-sm-3 pl-0 text-center header-logo">
                 <div class="bg-theme mr-3 pt-3 pb-2 mb-0">
-                    <h3 class="logo"><a href="#" class="text-secondary logo"><i class="fa-solid fa-house"></i></i> Sistem
+                    <h3 class="logo"><a href="#" class="text-secondary logo"><i class="fa-solid fa-house"></i></i>
+                            Sistem
                             Informasi</a></h3>
                 </div>
             </div>
@@ -78,17 +79,7 @@
                                     class="rounded-circle" width="40px" height="40px">
                             </a>
                             <div class="dropdown-menu dropdown-menu-right mt-13" aria-labelledby="dropdownMenuLink">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                <a class="dropdown-item" href="#"><i class="fa fa-user pr-2"></i> Profile</a>
-
-                                <!-- Divider for visual separation -->
-=======
                                 <a class="dropdown-item" href=""><i class="fa fa-user pr-2"></i>My Profile</a>
->>>>>>> f022f061c7a1c29a27ecb8ff903505e40765a8e3
-=======
-                                <a class="dropdown-item" href=""><i class="fa fa-user pr-2"></i>My Profile</a>
->>>>>>> f8f323ded1822796291542a2a7f49639ef01f129
                                 <div class="dropdown-divider"></div>
 
                                 <!-- Logout link -->
@@ -103,4 +94,5 @@
             </div>
             <!--Header Menu-->
         </div>
+
         <!--Header-->
