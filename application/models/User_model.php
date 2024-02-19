@@ -38,4 +38,40 @@ class User_model extends CI_model
     $result = $this->db->query($sql);
     return $result->row_array();
   }
+
+	public function getUserById($id)
+    {
+        $this->db->where('id', $id);
+        $query = $this->db->get('user'); // Assuming 'users' is your database table name
+
+        if ($query->num_rows() > 0) {
+            return $query->row_array();
+        } else {
+            return null; // or handle the case where no user is found
+        }
+    }
+
+    public function getUserByEmail($email)
+    {
+        $this->db->where('email', $email);
+        $query = $this->db->get('user'); // Assuming 'users' is your database table name
+
+        if ($query->num_rows() > 0) {
+            return $query->row_array();
+        } else {
+            return null; // or handle the case where no user is found
+        }
+    }
+
+    public function updateProfile($id, $data)
+    {
+        $this->db->where('id', $id);
+        $this->db->update('user', $data); // Assuming 'users' is your database table name
+    }
+
+    public function updatePassword($id, $data)
+    {
+        $this->db->where('id', $id);
+        $this->db->update('user', $data); // Assuming 'users' is your database table name
+    }
 }
