@@ -79,7 +79,8 @@
                                     class="rounded-circle" width="40px" height="40px">
                             </a>
                             <div class="dropdown-menu dropdown-menu-right mt-13" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href=""><i class="fa fa-user pr-2"></i>My Profile</a>
+                                <a class="dropdown-item" href="<?= base_url('MyProfile/index') ?>"><i
+                                        class="fa fa-user pr-2"></i>My Profile</a>
                                 <div class="dropdown-divider"></div>
 
                                 <!-- Logout link -->
@@ -94,5 +95,6 @@
             </div>
             <!--Header Menu-->
         </div>
+
 
         <!--Header-->
