@@ -7,12 +7,12 @@
    <div class="mt-1 mb-5 button-container">
      <div class="card shadow-sm">
        <div class="card-header  bg-primary">
-         <h6 class="text-white">PT. SURYABUMI AGROLANGGENG</h6>
+         <h6 class="text-white">PT. Global Printpack Indonesia</h6>
        </div>
        <div class="card-body">
          <p class="card-text p-typo">
            <center><b>• SEJARAH</b></br>
-             <p align="justify"> &nbsp;&nbsp;&nbsp;PT. Suryabumi Agrolanggeng begerak dibidang perkebunan kelapa sawit dengan luas areal pencadangan
+             <p align="justify"> &nbsp;&nbsp;&nbsp;PT. Global Printpack Indonesia begerak dibidang perkebunan kelapa sawit dengan luas areal pencadangan
                ± 15.000 hektar dengan pabrik pengelolahan minyak kelapa sawit (PMKS) yang berkapasitas maksimum 90 ton
                tbs / jam. secara geografis PT.Suryabumi Agrolanggeng terletak di Tujuh belas (17) desa yaitu Desa Hidup baru,
                Desa Padang Bindu, Desa Betung, Desa Pagar Dewa, Desa Pagar Jati, Desa Rami Pasai, Desa Penangiran,

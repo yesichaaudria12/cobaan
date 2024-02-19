@@ -8,8 +8,13 @@
              <div class="avatar text-center">
 
 
+<<<<<<< HEAD
                  <p><strong><a class="mt-2"><br><br><br><br><br>Sistem Manajemen Penggajian Terpadu</strong></p>
                  <span class="text-primary small"><strong>Selamat Datang</strong></span>
+=======
+                 <p><strong><a class="mt-2"><br><br><br><br><br>Sistem Informasi Reservasi Tiket ALS</strong></p>
+                 <span class="text-primary small"><strong>WELCOME</strong></span>
+>>>>>>> f8f323ded1822796291542a2a7f49639ef01f129
              </div>
              <!--Image Avatar-->
 

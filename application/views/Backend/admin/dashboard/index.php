@@ -2,7 +2,15 @@
  <div class="col-sm-9 col-xs-12 content pt-3 pl-0">
      <h5 class="mb-3"><strong>Dashboard</strong></h5>
 
+<<<<<<< HEAD
      <!--Dashboard widget-->
+=======
+   <!--Dashboard widget-->
+   <div class="mt-1 mb-3 button-container">
+     <div class="alert alert-primary" role="alert">
+       <p>Welcome, <b>Admin Kepegawaian</b></p>
+     </div>
+>>>>>>> f8f323ded1822796291542a2a7f49639ef01f129
      <div class="mt-1 mb-3 button-container">
          <div class="alert alert-primary" role="alert">
              <p>Selamat Datang, <b>Admin Kepegawaian</b></p>
