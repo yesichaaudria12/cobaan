@@ -17,16 +17,8 @@
             <!--Logo-->
             <div class="col-sm-3 pl-0 text-center header-logo">
                 <div class="bg-theme mr-3 pt-3 pb-2 mb-0">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    <h3 class="logo"><a href="#" class="text-secondary logo"><i class="fa fa-rocket"></i> Sistem
-                            Informasi</a></h3>
-=======
-                    <h3 class="logo"><a href="#" class="text-secondary logo"><i class="fa fa-home"></i> Sistem Informasi</a></h3>
->>>>>>> f022f061c7a1c29a27ecb8ff903505e40765a8e3
-=======
-                    <h3 class="logo"><a href="#" class="text-secondary logo"><i class="fa fa-home"></i> SeManGat</a></h3>
->>>>>>> f8f323ded1822796291542a2a7f49639ef01f129
+                    <h3 class="logo"><a href="#" class="text-secondary logo"><i class="fa fa-home"></i> SeManGat</a>
+                    </h3>
                 </div>
             </div>
             <!--Logo-->
@@ -86,22 +78,21 @@
                                     class="rounded-circle" width="40px" height="40px">
                             </a>
                             <div class="dropdown-menu dropdown-menu-right mt-13" aria-labelledby="dropdownMenuLink">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                <a class="dropdown-item" href="#"><i class="fa fa-user pr-2"></i> Profile</a>
+                                <<<<<<< HEAD <<<<<<< HEAD <a class="dropdown-item" href="#"><i
+                                        class="fa fa-user pr-2"></i> Profile</a>
 
-                                <!-- Divider for visual separation -->
-=======
-                                <a class="dropdown-item" href=""><i class="fa fa-user pr-2"></i>My Profile</a>
->>>>>>> f022f061c7a1c29a27ecb8ff903505e40765a8e3
-=======
-                                <a class="dropdown-item" href=""><i class="fa fa-user pr-2"></i>My Profile</a>
->>>>>>> f8f323ded1822796291542a2a7f49639ef01f129
-                                <div class="dropdown-divider"></div>
+                                    <!-- Divider for visual separation -->
+                                    =======
+                                    <a class="dropdown-item" href=""><i class="fa fa-user pr-2"></i>My Profile</a>
+                                    >>>>>>> f022f061c7a1c29a27ecb8ff903505e40765a8e3
+                                    =======
+                                    <a class="dropdown-item" href=""><i class="fa fa-user pr-2"></i>My Profile</a>
+                                    >>>>>>> f8f323ded1822796291542a2a7f49639ef01f129
+                                    <div class="dropdown-divider"></div>
 
-                                <!-- Logout link -->
-                                <a class="dropdown-item" href="<?= base_url('auth/logout') ?>"><i
-                                        class="fa fa-power-off pr-2"></i> Logout</a>
+                                    <!-- Logout link -->
+                                    <a class="dropdown-item" href="<?= base_url('auth/logout') ?>"><i
+                                            class="fa fa-power-off pr-2"></i> Logout</a>
                             </div>
 
                         </div>

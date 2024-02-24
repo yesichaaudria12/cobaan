@@ -32,46 +32,28 @@ class User_model extends CI_model
     return $result->row_array();
   }
 
-	public function UserById($id)
-  {
-    $sql = "SELECT tb_user.*, jabatan.jabatan as namjab from tb_pegawai,jabatan  where tb_pegawai.jabatan=jabatan.id_jabatan and tb_pegawai.id_user='$id'";
-    $result = $this->db->query($sql);
-    return $result->row_array();
-  }
-
-	public function getUserById($id)
+    public function getUserById($id)
     {
-        $this->db->where('id', $id);
-        $query = $this->db->get('user'); // Assuming 'users' is your database table name
-
-        if ($query->num_rows() > 0) {
-            return $query->row_array();
-        } else {
-            return null; // or handle the case where no user is found
-        }
+        return $this->db->get_where('user', ['id' => $id])->row_array();
     }
 
-    public function getUserByEmail($email)
-    {
-        $this->db->where('email', $email);
-        $query = $this->db->get('user'); // Assuming 'users' is your database table name
-
-        if ($query->num_rows() > 0) {
-            return $query->row_array();
-        } else {
-            return null; // or handle the case where no user is found
-        }
-    }
-
+    // Fungsi untuk memperbarui profil pengguna
     public function updateProfile($id, $data)
     {
         $this->db->where('id', $id);
-        $this->db->update('user', $data); // Assuming 'users' is your database table name
+        $this->db->update('user', $data);
     }
 
-    public function updatePassword($id, $data)
+    // Fungsi untuk mengambil data pengguna berdasarkan email
+    public function getUserByEmail($email)
+    {
+        return $this->db->get_where('user', ['email' => $email])->row_array();
+    }
+
+    // Fungsi untuk memperbarui password pengguna
+    public function updatePassword($id, $hashedPassword)
     {
         $this->db->where('id', $id);
-        $this->db->update('user', $data); // Assuming 'users' is your database table name
+        $this->db->update('user', ['password' => $hashedPassword]);
     }
 }

@@ -117,9 +117,9 @@
 
 
     // Pegwai
-	$route['MyProfile'] = 'myprofile/index';
-	$route['MyProfile/edit_profil/(:any)'] = 'myprofile/edit_profil/$1';
-	$route['MyProfile/edit_password/(:any)'] = 'myprofile/edit_password/$1';    
+	$route['myprofile'] = 'MyProfile/index';
+	$route['myprofile/update-profile/(:any)'] = 'MyProfile/update_profile';
+	$route['myprofile/update-password'] = 'MyProfile/update_password';   
 	$route['pegawai/edit-password/(:any)'] = 'pegawai/edit_password/$1';
     $route['pegawai/absen-harian'] = 'pegawai/absen_harian';
     $route['pegawai/ambilabsen'] = 'pegawai/ambil_absen';
